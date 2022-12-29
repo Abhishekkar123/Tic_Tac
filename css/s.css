@@ -1,0 +1,109 @@
+ 
+body{
+    background-color: #121818;
+    color:white;
+}
+
+ .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+         .cont
+        {
+            border:2px solid white;
+            display: flex;
+            flex-wrap:wrap;
+                width: 318px;
+    height: 316px;
+            justify-content: center;
+            align-items: center; 
+        }
+        .form{
+         text-align: center;
+         padding: 10px;
+         margin:20px;
+        }
+
+         input{
+               margin:10px;
+               border:1px solid black;
+               border-radius: 12px;
+                   padding: 5px;
+        }
+       
+        .cont .div{
+              flex-direction: column;
+              margin-top: 30px;
+
+
+        }
+        #start{
+                margin-top: 10px;
+             margin-left: 72px;
+        }
+        .d{
+            border:2px solid white;
+            display: flex;
+            font-size: 30px;
+            width:102px;
+            height:102px;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .d:hover{
+            background-color: #d3d3d3;
+            
+        }
+        .background{
+  
+         height:100vh;
+            padding-top:1px;
+        }
+         .gameDiv
+        {
+        display: flex;
+        flex-wrap:wrap;
+           
+           visibility: hidden;   
+        }
+           .score { 
+      
+       margin: 10px 30px 0px 10px;
+        padding:40px;
+       
+
+}
+
+/*#name1,#name2{
+    border:1px solid black;
+    width:50%;
+}*/
+table{
+        border-collapse: collapse;
+    width: 82px;
+    height: 75px;
+}
+td{
+    border:1px solid #dddddd;
+    text-align:center;
+    
+}
+
+.title{
+   /* color:white;*/
+    text-align: center;
+    font-size:40px;
+    margin-top:10%;
+    margin-bottom: 0px;
+}
+.display{
+    /*color:white;*/
+    font-size:25px;
+    text-align: center;
+    margin-top:1em;
+    margin-bottom: 1em;
+
+}
